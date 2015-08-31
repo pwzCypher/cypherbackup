@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+body {
+	background: url("../img/bg_kasou_rep.jpg") center top repeat-y;
+}
+
+#page_contact {
+	background: url("../img/bg_kasou.jpg") center top no-repeat;
+}
+
+#wrap {
+	padding-bottom: 20px;
+	background: url("../img/bg_kasou_bottom.jpg") center bottom no-repeat;
+}
+
+.contents_wrap .title_wrap {
+	margin: 0 auto 10px;
+	padding-top: 140px;
+	width: 806px;
+	position: relative;
+}
+
+.contents_wrap .title_wrap .discription {
+	color: #67430f;
+	position: absolute;
+	line-height: 150%;
+	font-size: 93%;
+	top: 185px;
+	left: 10px;
+}
+
+.contents_wrap .title_wrap .discription img {
+	vertical-align: text-bottom;
+}
+
+.contents_wrap .wrap_box {
+	margin: 0 auto;
+	width: 806px;
+	background: url("../img/bg_form_rep.jpg") center top repeat-y;
+}
+
+.contents_wrap .wrap_box .contents {
+	width: auto;
+	background: url("../img/bg_form_top.jpg") center top no-repeat;
+}
+
+.contents_wrap .wrap_box .contents .inner {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	width: auto;
+	background: url("../img/bg_form_bottom.jpg") center bottom no-repeat;
+}
+
+.tbl_common {
+	margin: 0 auto 20px;
+	width: 678px;
+    border: 1px #E3E3E3 solid;
+	border-bottom: none;
+    border-collapse: separate;
+    border-spacing: 0;
+	font-size: 13px;
+}
+
+* html .tbl_common {
+	border-collapse: collapse;
+}
+
+.tbl_common th {
+    padding: 10px;
+    border: #e6e3d9 solid;
+    border-width: 0 0 1px 0;
+    background: #f9f7f0;
+    font-weight: normal;
+    line-height: 120%;
+	width: 200px;
+	color: #333333;
+    text-align: left;
+}
+
+.tbl_common th.need {
+	background: #f9f7f0 url('../img/icon_need.jpg') 180px center  no-repeat;
+}
+
+.tbl_common th.no_need {
+	background: #f9f7f0 url('../img/icon_no_need.jpg') 180px center no-repeat;
+}
+
+.tbl_common td {
+    padding: 10px;
+    border: 1px #e6e3d9 solid;
+    border-width: 0 0 1px 1px;
+	line-height: 150%;
+	color: #646464;
+	background: #FFFFFF;
+}
+
+.tbl_common td input {
+	border-style: solid;
+	border-width: 2px;
+	border-color:#e0e0e0;
+	height: 20px;
+}
+
+.tbl_common td textarea {
+	border-style: solid;
+	border-width: 2px;
+	border-color:#e0e0e0;
+}
+
+
+.tbl_common td input.txt {
+	width: 200px;
+}
+
+.tbl_common td input.txt,
+.tbl_common td select.seat {
+    margin-bottom: 5px;
+}
+
+.tbl_common td div.error_message {
+    margin-top: 5px;
+	color: #CC0000;
+	font-weight: bold;
+}
+
+.tbl_common input {
+	margin-right: 5px;
+}
+
+.contents_wrap .wrap_box .contents .inner .submit {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contents_wrap .wrap_box .contents .inner .submit img {
+	border: none;
+}
+
+.contents_wrap .wrap_box .contents .inner .error p {
+	margin: 0 auto 20px;
+	padding: 10px;
+	width: 674px;
+	border: 3px solid #CC0000;
+	color: #CC0000;
+	text-align: center;
+	font-weight: bold;
+}
+
+h2.form_end {
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}

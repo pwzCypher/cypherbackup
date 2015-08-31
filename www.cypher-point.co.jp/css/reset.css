@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/* Reset CSS - Start - */
+
+body, div, ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+p, table, th, td {
+
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	line-height: 130%;
+	list-style-type: none;
+	font:13px "ＭＳ Ｐゴシック",arial,helvetica,clean,sans-serif;
+    *font-size:small;
+    *font:x-small;
+	
+}
+
+table {
+	font-size:inherit;
+	font-size: 100%;
+}
+
+.font10 { font-size:77%; }
+.font11 { font-size:85%; }
+.font12 { font-size:93%; }
+.font13 { font-size:100%; }
+.font14 { font-size:108%; }
+.font15 { font-size:116%; }
+.font16 { font-size:123.1%; }
+.font17 { font-size:131%; }
+.font18 { font-size:138.5%; }
+.font19 { font-size:146.5%; }
+.font20 { font-size:153.9%; }
+.font21 { font-size:161.6%; }
+.font22 { font-size:167%; }
+.font23 { font-size:174%; }
+.font24 { font-size:182%; }
+.font25 { font-size:189%; }
+.font26 { font-size:197%; }
+
+img {
+	vertical-align: bottom;
+	border: 0;
+}
+
+/* Reset CSS - End - */
+
+/* Default Link CSS - Start - */
+
+A:link {
+
+  color: #003399;
+  text-decoration: underline;
+  
+}
+
+A:visited {
+
+  color: #003399;
+  text-decoration: underline;
+  
+}
+
+A:active {
+
+  color: #003399;
+  text-decoration: underline;
+  
+}
+
+A:hover {
+  color: #CC0000;
+  text-decoration: none;
+}
+
+/* Default Link CSS - End - */
+
+/* Cleaer Fix CSS - Start - */
+
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+*:first-child+html .clearfix {
+	display: inline-block;
+	min-height: 1%;
+}
+
+/* Hides from IE6/IE Mac \*/
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+/* End hide from IE6/IE Mac */
+
+/* Cleaer Fix CSS - End - */

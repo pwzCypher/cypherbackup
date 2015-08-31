@@ -1,0 +1,559 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body{
+	background-color:#ffffff;
+	color:#333333;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	background:url('../img/bg.jpg') center top repeat-x #000000;
+}
+
+#outline{
+
+	margin: 0 auto;
+	width: 960px;
+
+}
+
+#header{
+	position: relative;
+}
+
+#header div.logo{
+
+	margin-left: 10px;
+
+}
+
+#header div.company{
+	top: 9px;
+	right: 28px;
+	font-size: 12px;
+	position: absolute;
+}
+
+div.contents {
+
+	width:960px;
+	position:relative;
+
+}
+
+div.contents p {
+	top: 10px;
+	left: 10px;
+	font-size: 13px;
+	line-height: 150%;
+	position: absolute;
+
+}
+
+/*
+html[xmlns*=""] body:last-child div.contents p {
+	font-size: 12px;
+}
+*/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+div.contents p {
+	font-size: 12px;
+}
+}
+
+div.contents a.button {
+	top: 6px;
+	left: 574px;
+	width: 252px;
+	height: 74px;
+	display: block;
+	position: absolute;
+}
+
+div.contents .red{
+	color:#FF0000;
+}
+
+div.contents .blue{
+	color:#003399;
+}
+
+div.contents .gray{
+	color:#CCCCCC;
+}
+
+div.contents .t_right{
+	text-align:right;
+}
+
+div.contents .float_l{
+	float: left;
+}
+
+div.contents .clear{
+	clear: both;
+}
+
+div.contents .clear hr{
+	display: none;
+}
+
+div.contents .w111{
+	width: 111px;
+}
+
+#footer{
+	width: 100%;
+	text-align: center;
+	background: url('../img/bg_footer.jpg') left top repeat-x;
+}
+
+
+/*-----------------------------------------------------------------------*/
+/* box0
+/*-----------------------------------------------------------------------*/
+
+div.box0 {
+
+}
+
+div.box0 p.contact {
+	top: 520px;
+	left: 608px;
+	text-align: center;
+	font-size: 13px;
+	position: absolute;
+}
+
+div.box0 p.contact a {
+	width: 285px;
+	height: 95px;
+	text-indent: -9999px;
+	background: url('../img/00.jpg') -608px -520px no-repeat;
+	display: block;
+}
+
+div.box0 p.contact a:hover {
+	background: url('../img/00_on.jpg') -608px -520px no-repeat;
+}
+
+
+/*-----------------------------------------------------------------------*/
+/* box1
+/*-----------------------------------------------------------------------*/
+
+div.box1{
+
+}
+
+
+/*-----------------------------------------------------------------------*/
+/* box2
+/*-----------------------------------------------------------------------*/
+
+div.box2 {
+
+}
+
+div.box2 p.txt01 {
+	left: 87px;
+	top: 162px;
+	width: 362px;
+}
+
+
+/*-----------------------------------------------------------------------*/
+/* box3
+/*-----------------------------------------------------------------------*/
+
+div.box3 {
+
+}
+
+div.box3 p.txt01 {
+	left: 87px;
+	top: 151px;
+	width: 362px;
+}
+
+div.box3 p.txt02 {
+	left: 244px;
+	top: 454px;
+	width: 222px;
+	color: #FFFFFF;
+}
+
+div.box3 p.txt03 {
+	left: 638px;
+	top: 454px;
+	width: 252px;
+	color: #FFFFFF;
+}
+
+
+/*-----------------------------------------------------------------------*/
+/* box5
+/*-----------------------------------------------------------------------*/
+
+div.box5 {
+
+}
+
+div.box5 p.txt01 {
+	left: 84px;
+	top: 321px;
+	font-size: 14px;
+	width: 267px;
+}
+
+
+/*-----------------------------------------------------------------------*/
+/* box6
+/*-----------------------------------------------------------------------*/
+
+div.box6 {
+
+}
+
+div.box6 p.txt01 {
+	left: 84px;
+	top: 165px;
+	width: 267px;
+}
+
+div.box6 p.txt02 {
+	left: 390px;
+	top: 202px;
+	font-size: 12px;
+	width: 387px;
+}
+
+div.box6 p.txt03 {
+	left: 390px;
+	top: 297px;
+	font-size: 12px;
+	width: 327px;
+}
+
+
+/*-----------------------------------------------------------------------*/
+/* box8
+/*-----------------------------------------------------------------------*/
+
+div.box8 {
+
+}
+
+div.box8 p.contact {
+	top: 325px;
+	left: 449px;
+	text-align: center;
+	font-size: 13px;
+	position: absolute;
+}
+
+div.box8 p.contact a {
+	width: 385px;
+	height: 95px;
+	text-indent: -9999px;
+	background: url('../img/08.jpg') -449px -325px no-repeat;
+	display: block;
+}
+
+div.box8 p.contact a:hover {
+	background: url('../img/08_on.jpg') -449px -325px no-repeat;
+}
+
+
+/*-----------------------------------------------------------------------*/
+/* box10
+/*-----------------------------------------------------------------------*/
+
+div.box10 {
+
+}
+
+div.box10 p.txt01 {
+	left: 315px;
+	top: 115px;
+	width: 542px;
+	color: #FFFFFF;
+}
+
+div.box10 p.txt02 {
+	left: 315px;
+	top: 250px;
+	width: 542px;
+	color: #FFFFFF;
+}
+
+
+/*-----------------------------------------------------------------------*/
+/* box11
+/*-----------------------------------------------------------------------*/
+
+div.box11 p.contact {
+	top: 50px;
+	left: 449px;
+	text-align: center;
+	font-size: 13px;
+	position: absolute;
+}
+
+div.box11 p.contact a {
+	width: 385px;
+	height: 95px;
+	text-indent: -9999px;
+	background: url('../img/11.jpg') -449px -50px no-repeat;
+	display: block;
+}
+
+div.box11 p.contact a:hover {
+	background: url('../img/11_on.jpg') -449px -50px no-repeat;
+}
+
+
+/*-----------------------------------------------------------------------*/
+/* form
+/*-----------------------------------------------------------------------*/
+.form_wrap {
+	text-align: center;
+	background: url('../img/bg_form.jpg') left top repeat-y;
+}
+
+.form_main {
+	margin: 0 auto;
+	padding-bottom: 40px;
+	width: 740px;
+	text-align: center;
+}
+
+.form_main p {
+	font-size: 13px;
+	color: #FFFFFF;
+}
+
+.form_main p.end_txt {
+	font-size: 13px;
+	color: #333333;
+}
+
+#form {
+	margin: 20px 0 0;
+	padding-top: 30px;
+	background: #FFFFFF;
+	background: url('../img/bg_form_top.jpg') left top no-repeat #FFFFFF;
+}
+
+#form div.input {
+	padding-bottom: 20px;
+	background: url('../img/bg_form_bottom.jpg') left bottom no-repeat;
+}
+
+
+#form table.form {
+	margin: 0 auto 20px;
+	width: 678px;
+    border: 1px #E3E3E3 solid;
+    border-collapse: separate;
+    border-spacing: 0;
+	font-size: 13px;
+}
+
+* html #form table.form {
+	border-collapse: collapse;
+}
+
+#form table.form th {
+    padding: 10px;
+    border: #666666 solid;
+    border-width: 0 0 1px 1px;
+    background: #000000;
+    font-weight: bold;
+    line-height: 120%;
+	width: 200px;
+	color: #FFFFFF;
+    text-align: left;
+}
+
+#form table.form th.need {
+	background: #000000 url('../img/icon_need.jpg') 160px center  no-repeat;
+}
+
+#form table.form th.no_need {
+background: #000000 url('../img/icon_no_need.jpg') 160px center no-repeat;
+}
+
+#form table.form td {
+    padding: 10px;
+    border: 1px #E3E3E3 solid;
+    border-width: 0 0 1px 1px;
+	line-height: 150%;
+	background: #f4f4f4;
+}
+
+#form table.form td input {
+	border-style: solid;
+	border-width: 2px;
+	border-color:#999999;
+	height: 20px;
+}
+
+#form table.form td textarea {
+	border-style: solid;
+	border-width: 2px;
+	border-color:#999999;
+}
+
+#form table.form td input.txt,
+#form table.form td select.seat {
+    margin-bottom: 5px;
+}
+
+#form table.form td div.error_message {
+    margin-top: 5px;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+#form table.customer {
+	width: 100%;
+    border: 1px #E3E3E3 solid;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#form table.customer th {
+    padding: 5px;
+    border: #E3E3E3 solid;
+    border-width: 0 0 1px 1px;
+    background: #F5F5F5;
+    font-weight: bold;
+    line-height: 120%;
+	color: #000000;
+    text-align: center;
+}
+#form table.customer td {
+    padding: 5px;
+    border: 1px #E3E3E3 solid;
+    border-width: 0 0 1px 1px;
+    text-align: center;
+}
+
+#form table input {
+	margin-right: 5px;
+}
+
+#form p.submit {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#form p.submit img {
+	border: none;
+}
+
+#form div.error p {
+	margin: 0 auto 20px;
+	padding: 10px;
+	width: 674px;
+	border: 3px solid #FF0000;
+	color: #FF0000;
+	text-align: center;
+	font-weight: bold;
+}
+
+#form h2 {
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+#form p.end_txt {
+	margin-bottom: 20px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 150%;
+}
+
+#form p.policy {
+	margin: 0 auto 20px;
+	width: 700px;
+	text-align: center;
+	border: 1px solid #000000;
+}
+
+#form p.policy_title {
+	font-weight: bold;
+	font-size: 18px;
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#form ul.route_box li {
+	display: block;
+	float: left;
+	width: 175px;
+	padding-top: 5px;
+}
+
+
+/*-----------------------------------------------------------------------*/
+/* さら双樹
+/*-----------------------------------------------------------------------*/
+
+div.sala-sojyu div.explain {
+	top: 242px;
+	left: 445px;
+	text-align: left;
+	font-size: 13px;
+	width: 440px;
+	position: absolute;
+}
+
+div.sala-sojyu div.explain p {
+	text-align: left;
+	font-size: 12px;
+	top: auto;
+	left: auto;
+	color: #FFFFFF;
+	position: relative;
+	margin-bottom: 12px
+}
+
+div.sala-sojyu p.link_txt {
+	top: auto;
+	left: auto;
+	bottom: 83px;
+	right: 80px;
+	text-align: left;
+	font-size: 12px;
+	color: #FFFFFF;
+	position: absolute;
+}
+
+div.sala-sojyu p.link_txt a {
+	font-size: 12px;
+	color: #e2cda5;
+	padding-right: 18px;
+	text-decoration: underline;
+	background: url("../img/icon_outer_link.jpg") right 1px no-repeat;
+}
+
+div.sala-sojyu p.link_txt a:hover {
+	text-decoration: none;
+}
+
+
+div.sala-sojyu p.caption {
+	top: auto;
+	left: auto;
+	bottom: 33px;
+	right: 50px;
+	text-align: center;
+	font-size: 10px;
+	color: #999999;
+	position: absolute;
+}

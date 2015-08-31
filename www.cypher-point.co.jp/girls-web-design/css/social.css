@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/* 基本設定 */
+#social_btn li {
+	margin-right: 5px;
+	margin-bottom: 2px;
+	float: left;
+}
+
+/* オプション設定 */
+#header #social_btn {
+	right: 0;
+	top: 7px;
+	position: absolute;
+}

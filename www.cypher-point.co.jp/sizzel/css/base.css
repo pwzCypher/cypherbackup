@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/* Reset CSS - Start - */
+
+body, div, ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+form, input, textarea, p, table, th, td {
+
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	
+}
+
+textarea {
+	font-size: 100%;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+/* Reset CSS - End - */
+
+/* Default Link CSS - Start - */
+
+A:link {
+
+  color: #0000ff;
+  text-decoration: none;
+  
+}
+
+A:visited {
+
+  color: #0000ff;
+  text-decoration: none;
+  
+}
+
+A:active {
+
+  color: #0000ff;
+  text-decoration: none;
+  
+}
+
+A:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+/* Default Link CSS - End - */
